@@ -164,6 +164,7 @@ span {
 #secao-orcamento{
     height: 100vh;
     padding: 3rem;
+    background-color: #7c81839f;
 }
 #form-orcamento{
     display: grid;
