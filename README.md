@@ -5,8 +5,8 @@ ID:1142739014
 
 
 - [x] Header
-- [ ] Apresentação
-- [ ] Projetos
-- [ ] Orçamento
+- [x] Apresentação
+- [x] Projetos
+- [x] Orçamento
 - [ ] Menu
 - [ ] Responsividade
