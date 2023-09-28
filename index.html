@@ -6,10 +6,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifolio</title>
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src= "./assets/js/script.js" defer></script>
+    <script src= "./assets/js/menu.js" defer></script>
 </head>
 <body>
 
-    <header>
+    <div id="menu-icon">
+        <span class="material-symbols-outlined">
+            menu
+        </span>
+    </div>
+
+    <aside id="menu">
+        <nav>
+            <ul>
+                <li>
+                    <a href="#home">  
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="icon">
+                    <path d="M11.47 3.84a.75.75 0 011.06 0l8.69 8.69a.75.75 0 101.06-1.06l-8.689-8.69a2.25 2.25 0 00-3.182 0l-8.69 8.69a.75.75 0 001.061 1.06l8.69-8.69z" />
+                    <path d="M12 5.432l8.159 8.159c.03.03.06.058.091.086v6.198c0 1.035-.84 1.875-1.875 1.875H15a.75.75 0 01-.75-.75v-4.5a.75.75 0 00-.75-.75h-3a.75.75 0 00-.75.75V21a.75.75 0 01-.75.75H5.625a1.875 1.875 0 01-1.875-1.875v-6.198a2.29 2.29 0 00.091-.086L12 5.43z" />
+                  </svg>
+
+                  <span>home</span>
+                  </a></li>
+                <li>
+                    <a href="#secao-apresentacao">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="icon">
+                        <path fill-rule="evenodd" d="M4.5 3.75a3 3 0 00-3 3v10.5a3 3 0 003 3h15a3 3 0 003-3V6.75a3 3 0 00-3-3h-15zm4.125 3a2.25 2.25 0 100 4.5 2.25 2.25 0 000-4.5zm-3.873 8.703a4.126 4.126 0 017.746 0 .75.75 0 01-.351.92 7.47 7.47 0 01-3.522.877 7.47 7.47 0 01-3.522-.877.75.75 0 01-.351-.92zM15 8.25a.75.75 0 000 1.5h3.75a.75.75 0 000-1.5H15zM14.25 12a.75.75 0 01.75-.75h3.75a.75.75 0 010 1.5H15a.75.75 0 01-.75-.75zm.75 2.25a.75.75 0 000 1.5h3.75a.75.75 0 000-1.5H15z" clip-rule="evenodd" />
+                          </svg>
+
+                          <span>apresentação</span>
+                          
+                    </a></li>
+                <li>
+                    <a href="#secao-projetos"> 
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="icon">
+                        <path fill-rule="evenodd" d="M6.32 2.577a49.255 49.255 0 0111.36 0c1.497.174 2.57 1.46 2.57 2.93V21a.75.75 0 01-1.085.67L12 18.089l-7.165 3.583A.75.75 0 013.75 21V5.507c0-1.47 1.073-2.756 2.57-2.93z" clip-rule="evenodd" />
+                          </svg>
+                          <span>projetos</span>
+                          
+                    </a>
+
+                </li>
+                <li>
+                    <a href="#secao-orcamento">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="icon">
+                            <path d="M10.464 8.746c.227-.18.497-.311.786-.394v2.795a2.252 2.252 0 01-.786-.393c-.394-.313-.546-.681-.546-1.004 0-.323.152-.691.546-1.004zM12.75 15.662v-2.824c.347.085.664.228.921.421.427.32.579.686.579.991 0 .305-.152.671-.579.991a2.534 2.534 0 01-.921.42z" />
+                            <path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zM12.75 6a.75.75 0 00-1.5 0v.816a3.836 3.836 0 00-1.72.756c-.712.566-1.112 1.35-1.112 2.178 0 .829.4 1.612 1.113 2.178.502.4 1.102.647 1.719.756v2.978a2.536 2.536 0 01-.921-.421l-.879-.66a.75.75 0 00-.9 1.2l.879.66c.533.4 1.169.645 1.821.75V18a.75.75 0 001.5 0v-.81a4.124 4.124 0 001.821-.749c.745-.559 1.179-1.344 1.179-2.191 0-.847-.434-1.632-1.179-2.191a4.122 4.122 0 00-1.821-.75V8.354c.29.082.559.213.786.393l.415.33a.75.75 0 00.933-1.175l-.415-.33a3.836 3.836 0 00-1.719-.755V6z" clip-rule="evenodd" />
+                          </svg>
+                          <span>orçamento</span>
+                          
+                    </a>
+
+                </li>
+            </ul>
+        </nav>
+    </aside>
+
+    <header id="home">
         <h1>Japanese Domestic Market</h1>
         <span>JDM</span>
         <a href="#secao-apresentacao" class="botao">saiba mais</a>
@@ -73,7 +128,7 @@
     </section>
 
     <section id="secao-orcamento">
-        <h2>Simule um orçamento para o seu site</h2>
+        <h2>Simule um orçamento para o seu projeto JDM</h2>
 
         <form action="" id="form-orcamento">
             <div class="campo linha">
@@ -82,20 +137,22 @@
             </div>
 
             <div class="campo">
-                <label for="qtde">quantidade de páginas</label>
+                <label for="qtde">quantas alterações</label>
                 <input type="number" min="1" id="qtde">
             </div>
             
             <div class="campo">
                 <label for="tipo">tipo</label>
                 <select name="tipo" id="tipo">
-                    <option value="">estático</option>
-                    <option value="">dinâmico</option>
+                    <option value="1">JDM</option>
+                    <option value="2">ChoraBoy</option>
+                    <option value="3">Deboxe</option>
+                    <option value="4">Perso</option>
                 </select>
             </div>
 
             <div class="campo linha">
-                <label for="layout">precisa de layout?</label>
+                <label for="layout">precisa de suspensão a ar?</label>
                 <div>
                     <input name="layout" type="radio" id="layout_sim">
                     <label for="layout_sim">sim, preciso</label>
@@ -106,16 +163,20 @@
 
             <div class="linha">
                 <input type="checkbox" id="js">
-                <label for="js">meu site precisa de javascript</label>
+                <label for="js">meu carro precisa de alteração interna?</label>
             </div>
 
             <div class="campo linha">
                 <label for="prazo">prazo</label>
-                <input type="range" id="prazo">
+                <input type="range" id="prazo" min="2" max="10">
             </div>
+
+            <output> R$1500,00</output>0
 
         </form>
     </section>
+
+   
        
 </body>
 </html>
